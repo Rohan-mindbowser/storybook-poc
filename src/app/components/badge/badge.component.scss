@@ -1,0 +1,25 @@
+span {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 12px;
+}
+
+/* Badge Variants */
+.success {
+  background: #28a745;
+  color: white;
+}
+.error {
+  background: #dc3545;
+  color: white;
+}
+.warning {
+  background: #ffc107;
+  color: black;
+}
+.info {
+  background: #17a2b8;
+  color: white;
+}
