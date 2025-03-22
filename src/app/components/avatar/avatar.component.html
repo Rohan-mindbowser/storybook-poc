@@ -1,0 +1,12 @@
+<div class="avatar-container">
+    <div class="avatar" [ngClass]="size">
+      <img *ngIf="imageUrl; else initialsBlock" [src]="imageUrl" alt="Avatar" />
+      <ng-template #initialsBlock>
+        <span>{{ getInitials() }}</span>
+      </ng-template>
+    </div>
+    <div class="user-info">
+      <p class="name">{{ name }}</p>
+      <p class="email">{{ email }}</p>
+    </div>
+  </div>
